@@ -8,8 +8,9 @@ public class Main {
 
         Calculadora calculadora = new Calculadora();
         Scanner sc = new Scanner(System.in);
-        
+
         do {
+            System.out.println("");
             System.out.println("------- Calculadora multitarefa -------");
             System.out.println("Escolha a operação a efetuar: ");
             System.out.println("1 - Operações aritméticas");
@@ -22,6 +23,7 @@ public class Main {
 
                 switch (menu) {
                     case 1:
+                        System.out.println("");
                         System.out.println("------- Operações aritméticas -------");
                         System.out.println("Escolha a operação a efetuar: ");
                         System.out.println("1 - Soma");
@@ -66,6 +68,7 @@ public class Main {
                         }
                         break;
                     case 2:
+                        System.out.println("");
                         System.out.println("------- Operações de Sistema numérico -------");
                         System.out.println("Escolha a operação a efetuar: ");
                         System.out.println("1 - Decimal para Binário");
@@ -120,6 +123,7 @@ public class Main {
                         }
                         break;
                     case 3:
+                        System.out.println("");
                         System.out.println("------- Conversões de Moeda -------");
                         System.out.println("Escolha a operação a efetuar: ");
                         System.out.println("1 - Euro para Dolár EUA");
@@ -168,6 +172,7 @@ public class Main {
                         }
                         break;
                     case 4:
+                        System.out.println("");
                         System.out.println("------- Calculos de Geometria plana -------");
                         System.out.println("Escolha a operação a efetuar: ");
                         System.out.println("1 - Área de um Triângulo");
