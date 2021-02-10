@@ -126,11 +126,11 @@ public class Main {
                         System.out.println("");
                         System.out.println("------- Conversões de Moeda -------");
                         System.out.println("Escolha a operação a efetuar: ");
-                        System.out.println("1 - Euro para Dolár EUA");
+                        System.out.println("1 - Euro para Dólar EUA");
                         System.out.println("2 - Euro para Real");
                         System.out.println("3 - Euro para Yen Japonês");
                         System.out.println("4 - Euro para Libra");
-                        System.out.println("5 - Euro para Franco Suiço");
+                        System.out.println("5 - Euro para Franco Suíço");
                         System.out.println("0 - Sair do programa");
                         submenu = sc.nextInt();
 
