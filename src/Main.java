@@ -173,7 +173,7 @@ public class Main {
                         break;
                     case 4:
                         System.out.println("");
-                        System.out.println("------- Calculos de Geometria plana -------");
+                        System.out.println("------- Cálculos de Geometria plana -------");
                         System.out.println("Escolha a operação a efetuar: ");
                         System.out.println("1 - Área de um Triângulo");
                         System.out.println("2 - Área de um Quadrado");

@@ -96,25 +96,25 @@ public class Calculadora {
     public void areaTriangulo (float altura, float base) {
         resultado = (base * altura) / 2;
 
-        System.out.println("A área do triângulo com base de: " + base + "cm e altura de: " + altura + "cm é de: " + resultado);
+        System.out.println("A área do triângulo com base de: " + base + "cm e altura de: " + altura + "cm é de: " + resultado + "cm².");
     }
 
     public void areaQuadrado (float lado) {
         resultado = (float) Math.pow(lado, 2);
 
-        System.out.println("A área do quadrado com lado de: " + lado + "cm é de: " + resultado);
+        System.out.println("A área do quadrado com lado de: " + lado + "cm é de: " + resultado + "cm².");
     }
 
     public void areaRetangulo (float comprimento, float largura) {
         resultado = comprimento * largura;
 
-        System.out.println("A área do retângulo com comprimento de: " + comprimento + "cm e largura de: " + largura + "cm é de: " + resultado);
+        System.out.println("A área do retângulo com comprimento de: " + comprimento + "cm e largura de: " + largura + "cm é de: " + resultado + "cm².");
     }
 
     public void areaCirculo (float raio) {
         resultado = (float) (Math.PI * Math.pow(raio, 2));
 
-        System.out.println("A área do círculo com raio de: " + raio + "cm é de: " + resultado);
+        System.out.println("A área do círculo com raio de: " + raio + "cm é de: " + resultado + "cm².");
     }
 
 }
