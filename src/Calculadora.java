@@ -64,31 +64,31 @@ public class Calculadora {
     public void euroToDollar (float euro) {
        resultado = (float) (1.21 * euro);
 
-        System.out.println( euro + " euros convertido para dólares dos EUA, são: " + resultado);
+        System.out.println( euro + " euros convertido para dólares dos EUA, são: " + resultado + " dólares dos EUA.");
     }
 
     public void euroToReal (float euro) {
         resultado = (float) (6.53 * euro);
 
-        System.out.println( euro + " euros convertido para reais, são: " + resultado);
+        System.out.println( euro + " euros convertido para reais, são: " + resultado + " reais.");
     }
 
     public void euroToYen (float euro) {
         resultado = (float) (126.65 * euro);
 
-        System.out.println( euro + " euros convertido para yens japoneses, são: " + resultado);
+        System.out.println( euro + " euros convertido para yens japoneses, são: " + resultado + " yens japoneses.");
     }
 
     public void euroToPound (float euro) {
         resultado = (float) (0.88 * euro);
 
-        System.out.println( euro + " euros convertido para libras, são: " + resultado);
+        System.out.println( euro + " euros convertido para libras, são: " + resultado + " libras.");
     }
 
     public void euroToFranc (float euro) {
         resultado = (float) (1.08 * euro);
 
-        System.out.println( euro + " euros convertido para francos suíços, são: " + resultado);
+        System.out.println( euro + " euros convertido para francos suíços, são: " + resultado + " francos suíços.");
     }
 
     // Calculos de Geometria plana
