@@ -2,7 +2,7 @@ import java.lang.Math;
 
 public class Calculadora {
 
-    float resultado;
+    private float resultado;
 
     // Operacoes aritmeticas
 
